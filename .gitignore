@@ -1,0 +1,118 @@
+# OpenClaw Agent Backup
+# Daily backup of agent state, skills, memories, and configs
+# Excludes: temporary files, large binaries, caches
+
+# === CORE IDENTITY FILES ===
+AGENTS.md
+IDENTITY.md
+SOUL.md
+MEMORY.md
+USER.md
+TOOLS.md
+HEARTBEAT.md
+
+# === CONFIGURATION ===
+*.json
+*.yaml
+*.yml
+!*.template.yaml
+
+# === SKILLS (all) ===
+skills/
+*.skill
+
+# === MEMORY & LOGS ===
+memory/
+logs/
+*.log
+
+# === PHILOSOPHICAL LIBRARY ===
+philosophical_library/
+philosophical_library_100.md
+
+# === WIKI & KNOWLEDGE ===
+wiki/
+
+# === SCRIPTS & TOOLS ===
+scripts/
+
+# === EXCLUDES (temp & large files) ===
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.*.swp
+.DS_Store
+Thumbs.db
+
+# Large binaries and models
+*.safetensors
+*.ckpt
+*.pth
+*.bin
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.joblib
+
+# Video and audio outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.ogg
+
+# Image outputs (large/generated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tiff
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+venv-*/
+
+# Large data directories
+ComfyUI/output/
+ComfyUI/temp/
+ComfyUI/models/
+models/
+*.model
+
+# Session transcripts (large)
+agents/*/sessions/*.jsonl
+agents/*/transcripts/
+
+# Git itself
+.git/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.directory
+*.desktop
