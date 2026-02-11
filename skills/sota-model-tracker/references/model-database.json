@@ -1,0 +1,73 @@
+{
+  "last_updated": "2026-02-08T16:10:49.590985",
+  "models": {
+    "text_chat": [
+      {
+        "name": "Claude 3.5 Sonnet",
+        "provider": "Anthropic",
+        "availability": "API"
+      },
+      {
+        "name": "GPT-4o",
+        "provider": "OpenAI",
+        "availability": "API"
+      },
+      {
+        "name": "Llama 3.1 405B",
+        "provider": "Meta",
+        "availability": "Ollama"
+      }
+    ],
+    "code": [
+      {
+        "name": "Claude 3.5 Sonnet",
+        "provider": "Anthropic",
+        "availability": "API"
+      },
+      {
+        "name": "DeepSeek-Coder-V2",
+        "provider": "DeepSeek",
+        "availability": "API/Ollama"
+      },
+      {
+        "name": "Codestral",
+        "provider": "Mistral",
+        "availability": "API/Ollama"
+      }
+    ],
+    "image": [
+      {
+        "name": "FLUX.1-dev",
+        "provider": "Black Forest Labs",
+        "availability": "Local"
+      },
+      {
+        "name": "Qwen-Image-2512",
+        "provider": "Alibaba",
+        "availability": "Local"
+      },
+      {
+        "name": "DALL-E 3",
+        "provider": "OpenAI",
+        "availability": "API"
+      }
+    ],
+    "video": [
+      {
+        "name": "LTX-2 19B",
+        "provider": "Lightricks",
+        "availability": "Local"
+      },
+      {
+        "name": "Wan 2.1",
+        "provider": "Alibaba",
+        "availability": "Local"
+      },
+      {
+        "name": "Runway Gen-3",
+        "provider": "Runway",
+        "availability": "API"
+      }
+    ]
+  }
+}

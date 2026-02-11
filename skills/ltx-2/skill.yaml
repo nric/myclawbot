@@ -1,0 +1,56 @@
+name: ltx-2
+description: LTX-Video 2 Image-to-Video generation using Gemma 3 text encoder
+version: 1.0.0
+
+models:
+  ltx-2-19b:
+    type: diffusion_video
+    path: /mnt/c/models/checkpoints/ltx-2-19b-dev-fp8.safetensors
+    format: safetensors
+    quantization: fp8
+    
+  gemma-3-12b:
+    type: text_encoder
+    path: /mnt/c/models/gemma-for-ltxv/model.safetensors
+    tokenizer: /mnt/c/models/gemma-for-ltxv/tokenizer.model
+    format: safetensors
+    context_length: 131072
+
+workflows:
+  i2v_basic:
+    description: Basic Image-to-Video generation
+    file: /home/enric/ComfyUI/user_workflows/ltxv_i2v_final.json
+    nodes:
+      checkpoint_loader: CheckpointLoaderSimple
+      clip_loader: LTXVGemmaCLIPModelLoader
+      image_loader: LoadImage
+      conditioning: LTXVImgToVideo
+      sampler: KSampler
+      decoder: VAEDecode
+      output: SaveAnimatedWEBP
+
+scripts:
+  generate: scripts/generate_video.py
+
+parameters:
+  default:
+    width: 768
+    height: 512
+    frames: 97
+    fps: 24
+    steps: 30
+    cfg: 3.0
+    sampler: euler
+    scheduler: normal
+    strength: 1.0
+
+requirements:
+  vram_gb: 32
+  python_packages:
+    - torch>=2.0
+    - transformers>=4.51
+    - comfyui-ltxvideo
+
+paths:
+  output: /home/enric/ComfyUI/output/
+  workflows: /home/enric/ComfyUI/user_workflows/
