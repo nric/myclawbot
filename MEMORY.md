@@ -19,6 +19,32 @@
 - **Daily Philosophical Reflections:** Täglich 18:00 Uhr: Voice-Nachricht mit philosophischer Reflexion aus 100-Werke-Liste. Format: Weibliche Stimme, narrativ, persönlich, 3-5 Minuten.
 - **Daily Backup:** Täglich 10:00 Uhr: Automatisches Git-Backup aller Skills, Memories, Configs nach github.com/nric/myclawbot.git. Excludes: Große Modelle, temporäre Dateien, generierte Medien.
 
+## DEEP RESEARCH SYSTEM (NEW - 2026-02-14)
+Multi-model collaborative research system for complex scientific/medical queries.
+
+### Architecture
+- **Phase 1:** Parallel research with Gemini 3 Pro + GPT 5.2 + Kimi k2.5
+- **Phase 2:** Adversarial critique between models
+- **Phase 3:** Human feedback loop (Enric)
+- **Phase 4:** Synthesis + iterative refinement (optional Opus 4.6)
+
+### Skills
+- `deep-research`: Main multi-model research skill
+- `gemini-deep-research`: Separate Gemini Deep Research API integration
+- `truth-seeker`: Existing cross-verification protocol
+
+### Model Configuration
+- **Primary:** GPT 5.2 (thinking=maximum)
+- **Tier 1:** Gemini 3 Pro, Kimi k2.5 (thinking=high)
+- **Tier 2 (Premium):** Opus 4.6 (conditional, expensive)
+- **Tier 3 (Local):** Gemma 3, Qwen 3 Coder
+
+### Weekly Audit
+- **Schedule:** Every Sunday 10:00 AM
+- **Job:** `deep-research-weekly-audit`
+- **Purpose:** Check for new models, API updates, skill improvements
+- **Notification:** WhatsApp summary to +4917620160561
+
 ## INFRASTRUCTURE & LOCATIONS
 | Path | Description | Type |
 |---|---|---|
@@ -55,6 +81,14 @@ Last updated: 2026-02-08 16:15
 
 ### VIDEO
 - **Local Installed:** LTX-2 19B (ComfyUI)
+
+## OPERATIONAL PROTOCOLS & BEST PRACTICES
+
+### Media & Image Sending
+- **Protocol:** Always prefer sending media via **public URLs** directly.
+- **Why:** Downloading files locally and sending via path often fails due to sandbox directory permissions/restrictions.
+- **Method:** `openclaw message send --channel whatsapp --media "https://example.com/image.png" ...`
+- **Status:** Verified working (2026-02-14).
 
 ### Current Strategy
 1. **Coding:** Use `qwen3-coder-128k` (local) or upgrade to `qwen3-coder-next`.
