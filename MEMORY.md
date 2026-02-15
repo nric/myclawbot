@@ -62,25 +62,35 @@ Multi-model collaborative research system for complex scientific/medical queries
 
 ## SOTA MODEL TRACKER
 
-Last updated: 2026-02-08 16:15
+Last updated: 2026-02-15 17:50 (Source: LMSYS / Feb 2026 Leaderboard)
 
-### TEXT / REASONING
-- **Global SOTA:** DeepSeek V3.2, Kimi k2.5, Gemini 3 Pro
-- **Local Installed:** Gemma 3 128k, GLM-4.7 (PartGPU)
-- **Recommended Update:** `ollama pull kimi-k2.5` (Native Multimodal Agent), `ollama pull deepseek-v3.2`
+### TEXT / REASONING (Global SOTA)
+- **1. Gemini 3 Pro** (Google) - Elo 1492
+- **2. Grok-4.1-Thinking** (xAI) - Elo 1482
+- **3. Gemini 3 Flash** (Google) - Elo 1470
+- **4. Claude Opus 4.5 (thinking)** (Anthropic) - Elo 1466
 
-### CODING
-- **Global SOTA:** Qwen3-Coder-Next, Claude 3.5 Sonnet
-- **Local Installed:** Qwen3-Coder 128k
-- **Recommended Update:** `ollama pull qwen3-coder-next` (Newer than installed qwen3-coder)
+### CODING (Global SOTA)
+- **1. Claude Opus 4.5 (thinking)** - Elo 1510 (Industry Leader)
+- **2. GPT-5.2-high** (OpenAI) - Elo 1465
+- **3. GLM-4.7** (Open Source Leader) - Elo 1445
 
-### VISION / MULTIMODAL
-- **Global SOTA:** Kimi k2.5, Gemini 3 Pro
-- **Local Installed:** Qwen3-VL 32b
-- **Recommended Update:** `ollama pull kimi-k2.5`
+### OPEN WEIGHT / LOCAL
+- **Leader:** GLM-4.7 (Installed: `glm47-q8-partgpu`)
+- **Challenger:** DeepSeek-R1 / DeepSeek V3.2 (Recommended: `ollama pull deepseek-r1`)
+- **Coding:** Qwen 3 Coder (Installed: `qwen3-coder-128k`)
 
-### VIDEO
-- **Local Installed:** LTX-2 19B (ComfyUI)
+### INSTALLED MODELS (Ollama)
+- `qwen3-coder-128k` (Coding Workhorse)
+- `glm47-q8-partgpu` (Reasoning Workhorse)
+- `gemma3-128k` (Fast/Efficient)
+- `qwen3-vl` (Vision)
+- `ltx-2-19b` (Video)
+
+### RECOMMENDED ACTIONS
+- **Critical:** Install `deepseek-r1` (SOTA Open Weight Reasoning).
+- **Update:** Check for `qwen3-coder-next` updates.
+- **API:** Use `gemini-3-pro` or `claude-opus-4.5` for hardest tasks.
 
 ## OPERATIONAL PROTOCOLS & BEST PRACTICES
 

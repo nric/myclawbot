@@ -1,95 +1,39 @@
-# SOTA Models Reference
+# SOTA Models Reference (Truth Seeker)
 
-Generated: 2026-02-08 16:10
+Last Verification: 2026-02-15 17:50
+Source: LMSYS / Feb 2026 Leaderboard
 
-## Recommended Models by Task
+## Tier 1: Supreme Reasoning (Global SOTA)
+Use for critical logic, architectural decisions, and truth arbitration.
 
-### TEXT CHAT
+1.  **Gemini 3 Pro** (Google) - Elo 1492
+    - *Best for:* Multimodal reasoning, complex instruction following.
+2.  **Grok-4.1-Thinking** (xAI) - Elo 1482
+    - *Best for:* Deep reasoning, chain-of-thought verification.
+3.  **Claude Opus 4.5 (thinking)** (Anthropic) - Elo 1466 / 1510 (Coding)
+    - *Best for:* Coding, nuanced writing, safety-critical tasks.
 
-1. **Claude 3.5 Sonnet** (Anthropic)
-   - Availability: API
-   - Best for: General use
+## Tier 2: High Efficiency / Daily Driver
+Use for standard tasks, summaries, and initial drafts.
 
-2. **GPT-4o** (OpenAI)
-   - Availability: API
-   - Best for: General use
+1.  **Gemini 3 Flash** (Google) - Elo 1470
+    - *Best for:* Speed, large context windows.
+2.  **GPT-5.2-high** (OpenAI) - Elo 1465
+    - *Best for:* General purpose, tool use.
 
-3. **Llama 3.1 405B** (Meta)
-   - Availability: Ollama
-   - Best for: General use
+## Tier 3: Local / Open Weights (Privacy & Cost)
+Use when offline, for sensitive data, or for bulk processing.
 
-### CODE
+1.  **GLM-4.7** (ChatGLM) - Elo 1445
+    - *Status:* Installed (`glm47-q8-partgpu`).
+    - *Role:* Primary local reasoner.
+2.  **DeepSeek-R1** (DeepSeek)
+    - *Status:* Recommended (Not installed).
+    - *Role:* Open-weight reasoning champion.
+3.  **Qwen 3 Coder** (Alibaba)
+    - *Status:* Installed (`qwen3-coder-128k`).
+    - *Role:* Local coding specialist.
 
-1. **Claude 3.5 Sonnet** (Anthropic)
-   - Availability: API
-   - Best for: General use
-
-2. **DeepSeek-Coder-V2** (DeepSeek)
-   - Availability: API/Ollama
-   - Best for: General use
-
-3. **Codestral** (Mistral)
-   - Availability: API/Ollama
-   - Best for: General use
-
-### IMAGE
-
-1. **FLUX.1-dev** (Black Forest Labs)
-   - Availability: Local
-   - Best for: General use
-
-2. **Qwen-Image-2512** (Alibaba)
-   - Availability: Local
-   - Best for: General use
-
-3. **DALL-E 3** (OpenAI)
-   - Availability: API
-   - Best for: General use
-
-### VIDEO
-
-1. **LTX-2 19B** (Lightricks)
-   - Availability: Local
-   - Best for: General use
-
-2. **Wan 2.1** (Alibaba)
-   - Availability: Local
-   - Best for: General use
-
-3. **Runway Gen-3** (Runway)
-   - Availability: API
-   - Best for: General use
-
-## Usage Guidelines
-
-### High-Reasoning Tasks
-- Use: Models labeled for reasoning
-- Cloud: Claude 3.5 Sonnet, GPT-4o, DeepSeek-R1
-- Local: DeepSeek-R1-Distill via Ollama
-
-### Fast/Efficient Tasks
-- Use: Gemini Flash, Llama 3.1 8B
-- Local: gemma3:4b, qwen2.5:7b
-
-### Code Generation
-- Use: Claude 3.5 Sonnet, GPT-4o, DeepSeek-Coder
-- Local: codestral, codellama
-
-### Image Generation
-- Local: FLUX.1-dev, Qwen-Image-2512
-- API: DALL-E 3, Midjourney
-
-### Video Generation
-- Local: LTX-2 (Lightricks)
-- API: Runway Gen-3, Pika
-
-## Cost-Optimized Strategy
-
-1. Always try local Ollama models first
-2. Use Gemini Flash for quick tasks
-3. Reserve premium models (Claude, GPT-4o) for complex reasoning
-4. Batch-process with local models when possible
-
-## Last Check
-
-Models verified working on this system:
+## Image & Video
+- **Image:** FLUX.1-dev (Local), DALL-E 3 (API).
+- **Video:** LTX-2 19B (Local), Runway Gen-3 (API).

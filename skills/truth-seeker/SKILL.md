@@ -11,8 +11,8 @@ This skill implements a rigorous cross-verification process to minimize hallucin
 
 1.  **Selection of High-End Models:**
     *   Initialize a sub-session with `google-gemini-cli/gemini-3-pro-preview`.
-    *   Initialize another sub-session with `openrouter/moonshotai/kimi-k2.5`.
-    *   *Optional:* Add `ollama/kimi-k2.5` (if installed) or `ollama/qwen3-coder-128k` for a grounded local perspective.
+    *   Initialize another sub-session with `anthropic/claude-opus-4.5` (or `openrouter/moonshotai/kimi-k2.5`).
+    *   *Optional:* Add `ollama/deepseek-r1` (if installed) or `ollama/glm47-q8-partgpu` for a grounded local perspective.
 
 2.  **Parallel Querying:**
     *   Send the identical prompt to all selected models.
