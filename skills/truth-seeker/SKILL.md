@@ -44,6 +44,15 @@ This skill implements a rigorous cross-verification process to minimize hallucin
 - `opencode`: For deep technical verification.
 - `openrouter`: Access to the world's best models.
 
+## Nuclear Option: Gemini 3 Deep Think
+For the absolute hardest scientific/research questions where Tier 1 models disagree:
+- **Model:** `google-gemini-cli/gemini-3-deep-think-preview`
+- **Access:** Requires Google AI Ultra or API Early Access
+- **Benchmarks:** Humanity's Last Exam 48.4%, ARC-AGI-2 84.6%, Codeforces Elo 3455
+- **Cost:** Very expensive. Use ONLY as final arbiter, never for routine queries.
+- **Speed:** Slow (can take minutes per query). Budget time accordingly.
+- **When:** Only invoke if Tier 1 consensus fails AND the question is critical (medical, scientific, strategic).
+
 ## Credits & Efficiency
 - Always use `gemini-3-flash-preview` for the initial triage.
 - Only trigger MTS if the complexity justifies the cost.

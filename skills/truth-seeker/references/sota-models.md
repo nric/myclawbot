@@ -1,39 +1,48 @@
-# SOTA Models Reference (Truth Seeker)
+# SOTA Models Reference
 
-Last Verification: 2026-02-15 17:50
-Source: LMSYS / Feb 2026 Leaderboard
+Generated: 2026-02-15 17:58
 
-## Tier 1: Supreme Reasoning (Global SOTA)
-Use for critical logic, architectural decisions, and truth arbitration.
+## Recommended Models by Task
 
-1.  **Gemini 3 Pro** (Google) - Elo 1492
-    - *Best for:* Multimodal reasoning, complex instruction following.
-2.  **Grok-4.1-Thinking** (xAI) - Elo 1482
-    - *Best for:* Deep reasoning, chain-of-thought verification.
-3.  **Claude Opus 4.5 (thinking)** (Anthropic) - Elo 1466 / 1510 (Coding)
-    - *Best for:* Coding, nuanced writing, safety-critical tasks.
+### TEXT & REASONING (Global SOTA)
+1. **Gemini 3 Pro** (Google) - Elo 1492
+   - Availability: API
+   - Best for: Complex reasoning, deep research, scientific queries.
+2. **Grok-4.1-Thinking** (xAI) - Elo 1482
+   - Availability: API
+   - Best for: Uncensored reasoning, creative thinking.
+3. **Claude Opus 4.5** (Anthropic) - Elo 1466
+   - Availability: API
+   - Best for: Nuanced writing, coding (see below).
 
-## Tier 2: High Efficiency / Daily Driver
-Use for standard tasks, summaries, and initial drafts.
+### CODING (Global SOTA)
+1. **Claude Opus 4.5 (thinking)** - Elo 1510
+   - Availability: API
+   - Best for: Complex software architecture, debugging hard bugs.
+2. **GPT-5.2-high** (OpenAI) - Elo 1465
+   - Availability: API
+   - Best for: Rapid prototyping, Python scripting.
+3. **Qwen 3 Coder** (Alibaba)
+   - Availability: Local (`qwen3-coder-128k`)
+   - Best for: Local dev, large context code analysis.
 
-1.  **Gemini 3 Flash** (Google) - Elo 1470
-    - *Best for:* Speed, large context windows.
-2.  **GPT-5.2-high** (OpenAI) - Elo 1465
-    - *Best for:* General purpose, tool use.
+### OPEN WEIGHT / LOCAL
+1. **DeepSeek-R1** (DeepSeek)
+   - Availability: Local (`ollama pull deepseek-r1`) / OpenRouter
+   - Best for: Local reasoning powerhouse, cost-effective heavy lifting.
+2. **GLM-4.7** (ZhipuAI)
+   - Availability: Local (`glm47-q8-partgpu`)
+   - Best for: General purpose, multilingual.
+3. **Gemma 3** (Google)
+   - Availability: Local (`gemma3-128k`)
+   - Best for: Efficiency, speed.
 
-## Tier 3: Local / Open Weights (Privacy & Cost)
-Use when offline, for sensitive data, or for bulk processing.
+### IMAGE & VIDEO
+1. **FLUX.1-dev** (Black Forest Labs) - Local Image
+2. **LTX-2 19B** (Lightricks) - Local Video
+3. **Wan 2.1** (Alibaba) - Local Video
 
-1.  **GLM-4.7** (ChatGLM) - Elo 1445
-    - *Status:* Installed (`glm47-q8-partgpu`).
-    - *Role:* Primary local reasoner.
-2.  **DeepSeek-R1** (DeepSeek)
-    - *Status:* Recommended (Not installed).
-    - *Role:* Open-weight reasoning champion.
-3.  **Qwen 3 Coder** (Alibaba)
-    - *Status:* Installed (`qwen3-coder-128k`).
-    - *Role:* Local coding specialist.
-
-## Image & Video
-- **Image:** FLUX.1-dev (Local), DALL-E 3 (API).
-- **Video:** LTX-2 19B (Local), Runway Gen-3 (API).
+## Cost-Optimized Strategy
+1. **Local First:** Use `qwen3-coder-128k` (coding) and `deepseek-r1` (reasoning) via Ollama.
+2. **Efficiency:** Use `gemma3-128k` for simple Q&A.
+3. **Premium:** Escalate to `gemini-3-pro` or `claude-opus-4.5` via API only when local models fail or for critical verification.

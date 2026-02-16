@@ -62,35 +62,43 @@ Multi-model collaborative research system for complex scientific/medical queries
 
 ## SOTA MODEL TRACKER
 
-Last updated: 2026-02-15 17:50 (Source: LMSYS / Feb 2026 Leaderboard)
+Last updated: 2026-02-15 18:20 (Source: artificialanalysis.ai, arena.ai)
 
-### TEXT / REASONING (Global SOTA)
-- **1. Gemini 3 Pro** (Google) - Elo 1492
-- **2. Grok-4.1-Thinking** (xAI) - Elo 1482
-- **3. Gemini 3 Flash** (Google) - Elo 1470
-- **4. Claude Opus 4.5 (thinking)** (Anthropic) - Elo 1466
+### REASONING & SCIENCE (New Leader!)
+- **1. Gemini 3 Deep Think** (Google) - Released this week. *Currently the smartest model.*
+- **2. Gemini 3 Pro** (Google) - Elo 1492
+- **3. Grok-4.1-Thinking** (xAI) - Elo 1482
 
-### CODING (Global SOTA)
-- **1. Claude Opus 4.5 (thinking)** - Elo 1510 (Industry Leader)
-- **2. GPT-5.2-high** (OpenAI) - Elo 1465
-- **3. GLM-4.7** (Open Source Leader) - Elo 1445
+### CODING (New Leaders!)
+- **1. Claude Opus 4.6** (Anthropic) - Elo >1510 (Successor to 4.5)
+- **2. GPT-5.3 Codex Spark** (OpenAI) - Elo ~1500
+- **3. DeepSeek-R1** (Open Weights) - Strong reasoning for code logic.
 
 ### OPEN WEIGHT / LOCAL
-- **Leader:** GLM-4.7 (Installed: `glm47-q8-partgpu`)
-- **Challenger:** DeepSeek-R1 / DeepSeek V3.2 (Recommended: `ollama pull deepseek-r1`)
+- **Reasoning:** DeepSeek-R1 (SOTA) - Recommended: `ollama pull deepseek-r1`
 - **Coding:** Qwen 3 Coder (Installed: `qwen3-coder-128k`)
+- **General:** GLM-4.7 (Installed: `glm47-q8-partgpu`)
 
 ### INSTALLED MODELS (Ollama)
 - `qwen3-coder-128k` (Coding Workhorse)
 - `glm47-q8-partgpu` (Reasoning Workhorse)
-- `gemma3-128k` (Fast/Efficient)
-- `qwen3-vl` (Vision)
+- `gemma3-128k` (Fast/Efficient) - *Supersedes gemma3:27b*
+- `qwen3-vl:32b` (Vision)
 - `ltx-2-19b` (Video)
+
+### GEMINI 3 DEEP THINK (Research-Grade Reasoning)
+- **Released:** 2026-02-12
+- **Access:** Google AI Ultra subscribers (Gemini App) + Early Access API (apply: https://forms.gle/eEF5natXTQimPhYH9)
+- **Capabilities:** Humanity's Last Exam 48.4%, ARC-AGI-2 84.6%, Codeforces Elo 3455, IMO/IPhO/IChO gold medal level
+- **Use case:** ONLY for hardest research-grade questions (slow, expensive). NOT for daily use.
+- **Integration:** Use in `deep-research` and `truth-seeker` skills as final verification/synthesis step.
+- **Cost:** Expensive (requires AI Ultra or API Early Access). Use sparingly.
+- **Model name (API):** `gemini-3-deep-think-preview` (via google-gemini-cli)
 
 ### RECOMMENDED ACTIONS
 - **Critical:** Install `deepseek-r1` (SOTA Open Weight Reasoning).
-- **Update:** Check for `qwen3-coder-next` updates.
-- **API:** Use `gemini-3-pro` or `claude-opus-4.5` for hardest tasks.
+- **Cleanup:** Remove `gemma3:27b` (Redundant).
+- **API:** Use `gemini-3-pro` for standard hard tasks, `gemini-3-deep-think-preview` ONLY for research-grade problems.
 
 ## OPERATIONAL PROTOCOLS & BEST PRACTICES
 
