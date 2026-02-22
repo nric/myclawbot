@@ -7,14 +7,14 @@
 
 ### Science Fiction & Kosmologie
 1. **"The Last Question"** - Isaac Asimov (1956) ✓ START
-2. **"The Universe in a Nutshell"** - Stephen Hawking (2001) 
+2. **"The Universe in a Nutshell"** - Stephen Hawking (2001) ✅ [Dimensionen, Holographisches Prinzip, M-Theorie] 
 3. **"Solaris"** - Stanisław Lem (1961)
 4. **"Childhood's End"** - Arthur C. Clarke (1953)
-5. **"The Hitchhiker's Guide to the Galaxy"** - Douglas Adams (1979) ✓ ✓ ✓
-6. **"Dune"** - Frank Herbert (1965) [Messiah-Komplex, Vorhersage, Determinismus] ✓
+5. **"The Hitchhiker's Guide to the Galaxy"** - Douglas Adams (1979) ✅ [Absurdismus, die Antwort "42", Information vs. Sinn]
+6. **"Dune"** - Frank Herbert (1965) ✅ [Messiah-Komplex, Vorhersage, Determinismus]
 7. **"Blindsight"** - Peter Watts (2006) [Bewusstsein vs. Intelligenz]
 8. **"Permutation City"** - Greg Egan (1994) [Simulierte Realität, Identität]
-9. **"The Library of Babel"** - Jorge Luis Borges (1941)
+9. **"The Library of Babel"** - Jorge Luis Borges (1941) [Unendlichkeit, Information, Zufall]
 10. **"Flatland"** - Edwin A. Abbott (1884) [Dimensionen, Perspektive]
 
 ### Physik & Kosmologie
