@@ -14,7 +14,7 @@
 6. **"Dune"** - Frank Herbert (1965) ✅ [Messiah-Komplex, Vorhersage, Determinismus]
 7. **"Blindsight"** - Peter Watts (2006) ✅ [Bewusstsein vs. Intelligenz, Chinese Room, evolutionärer Wert von Bewusstsein]
 8. **"Permutation City"** - Greg Egan (1994) [Simulierte Realität, Identität]
-9. **"The Library of Babel"** - Jorge Luis Borges (1941) [Unendlichkeit, Information, Zufall]
+9. **"The Library of Babel"** - Jorge Luis Borges (1941) ✅ [Unendlichkeit, Information, Zufall]
 10. **"Flatland"** - Edwin A. Abbott (1884) [Dimensionen, Perspektive]
 
 ### Physik & Kosmologie

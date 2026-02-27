@@ -17,7 +17,7 @@
 - **Methodik:** Analyse -> Plan (Scripts/Assets) -> Init (`init_skill.py`) -> Edit -> Package (`package_skill.py`).
 - **Weekly Optimization:** Systematische wöchentliche Recherche und Verbesserung durch `agent-optimization` Skill. Jeden Sonntag: Research → Evaluate → Recommend → Implement.
 - **Daily Philosophical Reflections:** Täglich 18:00 Uhr: Voice-Nachricht mit philosophischer Reflexion aus 100-Werke-Liste. Format: Weibliche Stimme, narrativ, persönlich, 3-5 Minuten.
-- **Daily Backup:** Täglich 10:00 Uhr: Automatisches Git-Backup aller Skills, Memories, Configs nach github.com/nric/myclawbot.git. Excludes: Große Modelle, temporäre Dateien, generierte Medien.
+- **Daily Backup:** Täglich 10:00 Uhr: Automatisches Git-Backup aller Skills, Memories, Configs nach github.com/nric/myclawbot.git. Excludes: Große Modelle, temporäre Dateien, generierte Medien. Benachrichtigung via TTS **immer auf Deutsch (weibliche Stimme)**.
 
 ## DEEP RESEARCH SYSTEM (NEW - 2026-02-14)
 Multi-model collaborative research system for complex scientific/medical queries.

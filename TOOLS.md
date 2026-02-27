@@ -1,10 +1,11 @@
 # Tools Configuration
 
 ## TTS (Text-to-Speech)
-- **Preferred Voice:** Female (warm, calm, narrative)
+- **Preferred Voice:** Female (warm, calm, narrative), GERMAN language
 - **Style:** Storytelling, not reading; personal and intimate
-- **Use Case:** Daily philosophical reflections (3-5 min voice messages)
+- **Use Case:** Daily philosophical reflections (3-5 min voice messages), general notifications
 - **Channel:** WhatsApp voice messages (MP3)
+- **IMPORTANT:** ALL generated text and speech MUST be in GERMAN. Do not generate English text for the TTS tool unless explicitly requested.
 
 ## Voice Settings for Daily Reflections
 - Female voice preferred
