@@ -108,6 +108,12 @@ Last updated: 2026-02-15 18:20 (Source: artificialanalysis.ai, arena.ai)
 - **Method:** `openclaw message send --channel whatsapp --media "https://example.com/image.png" ...`
 - **Status:** Verified working (2026-02-14).
 
+### German Text-to-Speech (Voice Messages)
+- **Protocol:** Use the `local-tts-de` skill (`speak_de.sh` with Sherpa-ONNX) as the primary and ONLY reliable method for generating German voice messages.
+- **Why:** F5-TTS via ComfyUI fails due to missing system-level `ffmpeg` shared libraries (`libavutil.so.60`, etc.) which require `sudo` to install. 
+- **Method:** Run `bash /home/enric/.openclaw/workspace/scripts/speak_de.sh "Text" /home/enric/.openclaw/workspace/voice.wav`, then use the `message` tool with `media: /home/enric/.openclaw/workspace/voice.ogg` and `asVoice: true`.
+- **Status:** Verified working (2026-03-01).
+
 ### Current Strategy
 1. **Coding:** Use `qwen3-coder-128k` (local) or upgrade to `qwen3-coder-next`.
 2. **Reasoning:** Use `gemma3-128k` (local) or Cloud (Gemini 3 Pro).

@@ -13,7 +13,7 @@
 5. **"The Hitchhiker's Guide to the Galaxy"** - Douglas Adams (1979) ✅ [Absurdismus, die Antwort "42", Information vs. Sinn]
 6. **"Dune"** - Frank Herbert (1965) ✅ [Messiah-Komplex, Vorhersage, Determinismus]
 7. **"Blindsight"** - Peter Watts (2006) ✅ [Bewusstsein vs. Intelligenz, Chinese Room, evolutionärer Wert von Bewusstsein]
-8. **"Permutation City"** - Greg Egan (1994) [Simulierte Realität, Identität]
+8. **"Permutation City"** - Greg Egan (1994) ✅ [Simulierte Realität, Identität, Dust Theory]
 9. **"The Library of Babel"** - Jorge Luis Borges (1941) ✅ [Unendlichkeit, Information, Zufall]
 10. **"Flatland"** - Edwin A. Abbott (1884) [Dimensionen, Perspektive]
 
