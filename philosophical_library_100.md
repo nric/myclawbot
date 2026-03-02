@@ -15,7 +15,7 @@
 7. **"Blindsight"** - Peter Watts (2006) ✅ [Bewusstsein vs. Intelligenz, Chinese Room, evolutionärer Wert von Bewusstsein]
 8. **"Permutation City"** - Greg Egan (1994) ✅ [Simulierte Realität, Identität, Dust Theory]
 9. **"The Library of Babel"** - Jorge Luis Borges (1941) ✅ [Unendlichkeit, Information, Zufall]
-10. **"Flatland"** - Edwin A. Abbott (1884) [Dimensionen, Perspektive]
+10. **"Flatland"** - Edwin A. Abbott (1884) ✅ [Dimensionen, Perspektive, Wahrnehmungsgrenzen]
 
 ### Physik & Kosmologie
 11. **"A Brief History of Time"** - Stephen Hawking (1988)
