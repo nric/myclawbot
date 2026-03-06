@@ -18,7 +18,7 @@
 10. **"Flatland"** - Edwin A. Abbott (1884) ✅ [Dimensionen, Perspektive, Wahrnehmungsgrenzen]
 
 ### Physik & Kosmologie
-11. **"A Brief History of Time"** - Stephen Hawking (1988)
+11. **"A Brief History of Time"** - Stephen Hawking (1988) ✅ [Urknall, Zeit als emergent, Determinismus vs. Freiheit, Endlichkeit]
 12. **"The Elegant Universe"** - Brian Greene (1999)
 13. **"The Fabric of the Cosmos"** - Brian Greene (2004)
 14. **"Cosmos"** - Carl Sagan (1980)
