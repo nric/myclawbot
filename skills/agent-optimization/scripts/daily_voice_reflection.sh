@@ -1,24 +1,24 @@
 #!/bin/bash
-# Daily Philosophical Reflection - Voice Generator
-# To be called by cron job
+# Tägliche philosophische Reflexion - Sprachausgabe-Generator
+# Wird vom Cron-Job aufgerufen
 
-echo "🎙️ Generating daily philosophical voice reflection..."
+echo "🎙️ Generiere tägliche philosophische Sprachnachricht..."
 
-# Configuration
+# Konfiguration
 LIBRARY_FILE="/home/enric/.openclaw/workspace/philosophical_library_100.md"
 OUTPUT_DIR="/home/enric/.openclaw/workspace/philosophical_library"
 MEMORY_DIR="/home/enric/.openclaw/workspace/memory"
 RECIPIENT="+4917620160561"
 DATE=$(date +%Y-%m-%d)
 
-# Find next uncompleted work
-# This is a placeholder - actual implementation would parse the library file
-# and find the next entry marked as "Geplant" or not completed
+# Nächstes unbearbeitetes Werk finden
+# Dies ist ein Platzhalter - die eigentliche Implementierung würde die Bibliotheksdatei parsen
+# und den nächsten Eintrag finden, der als "Geplant" markiert ist oder nicht abgeschlossen
 
-echo "✓ Configuration loaded"
-echo "📚 Library: $LIBRARY_FILE"
-echo "📅 Date: $DATE"
-echo "📁 Output: $OUTPUT_DIR"
+echo "✓ Konfiguration geladen"
+echo "📚 Bibliothek: $LIBRARY_FILE"
+echo "📅 Datum: $DATE"
+echo "📁 Ausgabe: $OUTPUT_DIR"
 
-# The actual generation is handled by the agent in the cron job
-# This script serves as documentation of the workflow
+# Die eigentliche Generierung wird vom Agenten im Cron-Job durchgeführt
+# Dieses Skript dient als Dokumentation des Workflows

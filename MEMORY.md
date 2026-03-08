@@ -62,7 +62,7 @@ Multi-model collaborative research system for complex scientific/medical queries
 
 ## SOTA MODEL TRACKER
 
-Last updated: 2026-02-15 18:20 (Source: artificialanalysis.ai, arena.ai)
+Last updated: 2026-03-08 10:11 (Source: artificialanalysis.ai, arena.ai)
 
 ### REASONING & SCIENCE (New Leader!)
 - **1. Gemini 3 Deep Think** (Google) - Released this week. *Currently the smartest model.*
@@ -75,14 +75,18 @@ Last updated: 2026-02-15 18:20 (Source: artificialanalysis.ai, arena.ai)
 - **3. DeepSeek-R1** (Open Weights) - Strong reasoning for code logic.
 
 ### OPEN WEIGHT / LOCAL
-- **Reasoning:** DeepSeek-R1 (SOTA) - Recommended: `ollama pull deepseek-r1`
+- **Reasoning:** DeepSeek-R1 (SOTA) - Installed: `deepseek-r1:32b`
 - **Coding:** Qwen 3 Coder (Installed: `qwen3-coder-128k`)
 - **General:** GLM-4.7 (Installed: `glm47-q8-partgpu`)
 
 ### INSTALLED MODELS (Ollama)
-- `qwen3-coder-128k` (Coding Workhorse)
-- `glm47-q8-partgpu` (Reasoning Workhorse)
-- `gemma3-128k` (Fast/Efficient) - *Supersedes gemma3:27b*
+- `deepseek-r1:32b` (SOTA Open Weight Reasoning)
+- `qwen3-coder-128k:latest` (Coding Workhorse)
+- `qwen3-coder:30b` (Legacy, superseded by 128k)
+- `glm47-q8-partgpu:latest` (Reasoning Workhorse)
+- `glm-4.7-flash:q4_K_M` & `glm-4.7-flash:q8_0` (Legacy, superseded by partgpu)
+- `gemma3-128k:latest` (Fast/Efficient) - *Supersedes gemma3:27b*
+- `gemma3:27b` (Legacy, superseded by 128k)
 - `qwen3-vl:32b` (Vision)
 - `ltx-2-19b` (Video)
 
@@ -96,8 +100,7 @@ Last updated: 2026-02-15 18:20 (Source: artificialanalysis.ai, arena.ai)
 - **Model name (API):** `gemini-3-deep-think-preview` (via google-gemini-cli)
 
 ### RECOMMENDED ACTIONS
-- **Critical:** Install `deepseek-r1` (SOTA Open Weight Reasoning).
-- **Cleanup:** Remove `gemma3:27b` (Redundant).
+- **Cleanup:** Remove `gemma3:27b`, `qwen3-coder:30b`, `glm-4.7-flash:q4_K_M`, and `glm-4.7-flash:q8_0` (Redundant/Outdated).
 - **API:** Use `gemini-3-pro` for standard hard tasks, `gemini-3-deep-think-preview` ONLY for research-grade problems.
 
 ## OPERATIONAL PROTOCOLS & BEST PRACTICES
