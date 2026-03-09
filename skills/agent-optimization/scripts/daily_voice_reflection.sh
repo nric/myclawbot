@@ -20,5 +20,6 @@ echo "📚 Bibliothek: $LIBRARY_FILE"
 echo "📅 Datum: $DATE"
 echo "📁 Ausgabe: $OUTPUT_DIR"
 
-# Die eigentliche Generierung wird vom Agenten im Cron-Job durchgeführt
-# Dieses Skript dient als Dokumentation des Workflows
+# WICHTIG: Die eigentliche Generierung MUSS ZWINGEND über /home/enric/.openclaw/workspace/scripts/speak_de.sh erfolgen.
+# Niemals das interne OpenClaw `tts` tool für deutsche Sprachnachrichten verwenden, da es eine englische Aussprache nutzt!
+# Die Nachricht muss anschließend via `message` tool als OGG (`asVoice: true`) verschickt werden.
