@@ -20,7 +20,7 @@
 ### Physik & Kosmologie
 11. **"A Brief History of Time"** - Stephen Hawking (1988) ✅ [Urknall, Zeit als emergent, Determinismus vs. Freiheit, Endlichkeit]
 12. **"The Elegant Universe"** - Brian Greene (1999) ✅ [Stringtheorie, verborgene Dimensionen, Schönheit als Wahrheitsindikator]
-13. **"The Fabric of the Cosmos"** - Brian Greene (2004)
+13. **"The Fabric of the Cosmos"** - Brian Greene (2004) ✅ [Raum-Zeit-Geflecht, Multiversum, Realität als Spektrum]
 14. **"Cosmos"** - Carl Sagan (1980)
 15. **"The Structure of Scientific Revolutions"** - Thomas S. Kuhn (1962)
 16. **"The Character of Physical Law"** - Richard Feynman (1965)
