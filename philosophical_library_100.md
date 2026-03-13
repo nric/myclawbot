@@ -21,8 +21,8 @@
 11. **"A Brief History of Time"** - Stephen Hawking (1988) ✅ [Urknall, Zeit als emergent, Determinismus vs. Freiheit, Endlichkeit]
 12. **"The Elegant Universe"** - Brian Greene (1999) ✅ [Stringtheorie, verborgene Dimensionen, Schönheit als Wahrheitsindikator]
 13. **"The Fabric of the Cosmos"** - Brian Greene (2004) ✅ [Raum-Zeit-Geflecht, Multiversum, Realität als Spektrum]
-14. **"Cosmos"** - Carl Sagan (1980)
-15. **"The Structure of Scientific Revolutions"** - Thomas S. Kuhn (1962)
+14. **"Cosmos"** - Carl Sagan (1980) ✅ [Wir sind Sternenstaub, Wissenschaft als Spiritualität, kosmische Perspektive]
+15. **"The Structure of Scientific Revolutions"** - Thomas S. Kuhn (1962) ✅ [Paradigmenwechsel, normale vs. revolutionäre Wissenschaft, Anomalien, Inkcommensurabilität]
 16. **"The Character of Physical Law"** - Richard Feynman (1965)
 17. **"Space, Time and Gravitation"** - Arthur Eddington (1920)
 18. **"The Demon-Haunted World"** - Carl Sagan (1995)
