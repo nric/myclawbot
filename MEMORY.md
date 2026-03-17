@@ -62,7 +62,7 @@ Multi-model collaborative research system for complex scientific/medical queries
 
 ## SOTA MODEL TRACKER
 
-Last updated: 2026-03-08 10:11 (Source: artificialanalysis.ai, arena.ai)
+Last updated: 2026-03-16 13:38 (Source: artificialanalysis.ai, arena.ai)
 
 ### REASONING & SCIENCE (New Leader!)
 - **1. Gemini 3 Deep Think** (Google) - Released this week. *Currently the smartest model.*

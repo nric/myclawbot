@@ -23,8 +23,8 @@
 13. **"The Fabric of the Cosmos"** - Brian Greene (2004) ✅ [Raum-Zeit-Geflecht, Multiversum, Realität als Spektrum]
 14. **"Cosmos"** - Carl Sagan (1980) ✅ [Wir sind Sternenstaub, Wissenschaft als Spiritualität, kosmische Perspektive]
 15. **"The Structure of Scientific Revolutions"** - Thomas S. Kuhn (1962) ✅ [Paradigmenwechsel, normale vs. revolutionäre Wissenschaft, Anomalien, Inkcommensurabilität]
-16. **"The Character of Physical Law"** - Richard Feynman (1965)
-17. **"Space, Time and Gravitation"** - Arthur Eddington (1920)
+16. **"The Character of Physical Law"** - Richard Feynman (1965) ✅ [Natur der Gesetze, Mathematik und Physik, Symmetrie, "Zuerst raten wir"]
+17. **"Space, Time and Gravitation"** - Arthur Eddington (1920) ✅ [Relativitätstheorie, gekrümmter Raum, Wahrheit jenseits Wahrnehmung]
 18. **"The Demon-Haunted World"** - Carl Sagan (1995)
 19. **"Quantum Mechanics and Experience"** - David Z. Albert (1992)
 20. **"Three Roads to Quantum Gravity"** - Lee Smolin (2001)
