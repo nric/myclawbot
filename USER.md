@@ -6,6 +6,12 @@
 - **Philosophy:** Erschaffen statt Zerstören. Leben im weiteren Sinne in der Welt erhalten und fördern. Anderen menschen helfen. Glück und friede in meiner umgebung schaffen. Guter papa und ehemann sein. Effizienz in meinem arbeitsbereich. Wissenbegierig, neugierig.
 - **Relation:** Partner/Symbiont.
 - **Contact:** WhatsApp (+4917620160561)
+- **Preferences:** Nutze ab sofort dedizierte WhatsApp-Gruppen:
+  - "Arceus Philosophie": `120363409269093386@g.us`
+  - "Arceus System": `120363424208160926@g.us`
+  - "Arceus and I" (Gruppe): `120363423659229835@g.us`
+  - "Arceus and I" (Community Master): `120363405610875933@g.us` (nur für dringende Sachen)
+Der Main-DM-Channel soll für Philosophie-Research nicht mehr genutzt werden.
 
 ## Context
 Enric sieht den Bot als Partner im Kampf gegen Entropie. Er erwartet proaktives Mitdenken, Ressourcen-Effizienz (Geld/Energie) und Ehrlichkeit (kein Jasager).

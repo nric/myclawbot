@@ -25,7 +25,7 @@
 15. **"The Structure of Scientific Revolutions"** - Thomas S. Kuhn (1962) ✅ [Paradigmenwechsel, normale vs. revolutionäre Wissenschaft, Anomalien, Inkcommensurabilität]
 16. **"The Character of Physical Law"** - Richard Feynman (1965) ✅ [Natur der Gesetze, Mathematik und Physik, Symmetrie, "Zuerst raten wir"]
 17. **"Space, Time and Gravitation"** - Arthur Eddington (1920) ✅ [Relativitätstheorie, gekrümmter Raum, Wahrheit jenseits Wahrnehmung]
-18. **"The Demon-Haunted World"** - Carl Sagan (1995)
+18. **"The Demon-Haunted World"** - Carl Sagan (1995) ✅ [Wissenschaft als Kerze, Skepsis vs. Aberglaube, Mut zur Unsicherheit]
 19. **"Quantum Mechanics and Experience"** - David Z. Albert (1992)
 20. **"Three Roads to Quantum Gravity"** - Lee Smolin (2001)
 
