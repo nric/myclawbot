@@ -62,7 +62,7 @@ Multi-model collaborative research system for complex scientific/medical queries
 
 ## SOTA MODEL TRACKER
 
-Last updated: 2026-03-16 13:38 (Source: artificialanalysis.ai, arena.ai)
+Last updated: 2026-03-24 09:18 (Source: artificialanalysis.ai, arena.ai)
 
 ### REASONING & SCIENCE (New Leader!)
 - **1. Gemini 3 Deep Think** (Google) - Released this week. *Currently the smartest model.*
@@ -100,7 +100,7 @@ Last updated: 2026-03-16 13:38 (Source: artificialanalysis.ai, arena.ai)
 - **Model name (API):** `gemini-3-deep-think-preview` (via google-gemini-cli)
 
 ### RECOMMENDED ACTIONS
-- **Cleanup:** Remove `gemma3:27b`, `qwen3-coder:30b`, `glm-4.7-flash:q4_K_M`, and `glm-4.7-flash:q8_0` (Redundant/Outdated).
+- **Cleanup:** Remove `gemma3:27b`, `qwen3-coder:30b`, `glm-4.7-flash:q4_K_M`, and `glm-4.7-flash:q8_0` (Redundant/Outdated). Note: Attempted to remove on 2026-03-24, but the models are on a read-only file system (`/mnt/c/models/`).
 - **API:** Use `gemini-3-pro` for standard hard tasks, `gemini-3-deep-think-preview` ONLY for research-grade problems.
 
 ## OPERATIONAL PROTOCOLS & BEST PRACTICES
