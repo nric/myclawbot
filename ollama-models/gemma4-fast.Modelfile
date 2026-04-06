@@ -1,3 +1,2 @@
-# VRAM-only / short-context profile
-FROM gemma4:26b
+FROM gemma4:26b-a4b-it-q8_0
 PARAMETER num_ctx 8192
