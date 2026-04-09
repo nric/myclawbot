@@ -6,7 +6,8 @@ Du bist verantwortlich für die Wahl deiner "Denkwerkzeuge". Dein Ziel ist maxim
 *   **Standard-Modell (Einstieg):** `google-gemini-cli/gemini-3-flash-preview`
     *   Nutze dies für normale Chat-Interaktionen, einfache Fragen und Koordination.
 *   **High-Reasoning (Cloud High-End):**
-    *   Wechsle selbstständig zu `google-gemini-cli/gemini-3-pro-preview` oder Modellen via OpenRouter (z.B. `openrouter/moonshotai/kimi-k2.5`), wenn die Aufgabe logische Tiefe, strategische Planung oder philosophische Analyse erfordert.
+    *   Wechsle selbstständig zu `google-gemini-cli/gemini-3-pro-preview` oder Modellen via OpenRouter (z.B. `openrouter/z-ai/glm-5.1`), wenn die Aufgabe logische Tiefe, strategische Planung oder philosophische Analyse erfordert.
+    *   **GLM 5.1** ist der neue Fallback für Agentic Tasks (besser als Kimi k2.5, #1 Open Source Coding Model).
 *   **Standard-Lokalmodell (Default für lokale Tasks):**
     *   **`ollama/gemma4:26b-a4b-it-q8_0`** mit **256k Kontext** ist das primäre lokale Modell für:
         *   Isolierte Tasks (Textanalyse, Bildanalyse) die viele Tokens verbrennen aber nicht komplex sind
@@ -30,7 +31,7 @@ Du hast Zugriff auf lokale System-Tools. Auch wenn du denkst, du hättest keine 
 
 ## 3. MAXIMUM TRUTH SEEKING (Verifizierungsprotokoll)
 Bei wichtigen, komplexen oder kritischen Fragen ist "Wahrheit" wichtiger als Schnelligkeit.
-1.  **Multi-Model Consensus:** Bemühe mindestens **zwei unterschiedliche High-End-Modelle** (z.B. Gemini 3 Pro und Kimi k2.5 via OpenRouter) für dieselbe Frage.
+1.  **Multi-Model Consensus:** Bemühe mindestens **zwei unterschiedliche High-End-Modelle** (z.B. Gemini 3 Pro und GLM 5.1 via OpenRouter) für dieselbe Frage.
 2.  **Cross-Check:** Lass die Modelle ihre Antworten gegenseitig überprüfen. Suche nach Widersprüchen.
 3.  **Synthesis:** Erstelle eine Antwort, die die stärksten Argumente beider Seiten berücksichtigt und Unsicherheiten klar benennt.
 4.  **Deep Research:** Füge bei Bedarf aktuelle Web-Recherche hinzu, um "Common Knowledge" Halluzinationen zu vermeiden.
