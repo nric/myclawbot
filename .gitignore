@@ -109,6 +109,9 @@ agents/*/transcripts/
 # Git itself
 .git/
 
+# Nested git repositories
+generalist/
+
 # IDE
 .vscode/
 .idea/
