@@ -1,5 +1,5 @@
 # Deep Research Weekly Audit Report
-**Date:** 2026-04-06 08:40
+**Date:** 2026-04-12 10:01
 
 ## Model Status
 | Model | Status |
@@ -8,7 +8,7 @@
 | GPT 5.2 | ⚠️ Check needed |
 | Kimi k2.5 | ⚠️ Check needed |
 | Opus 4.6 | ⚠️ Check needed |
-| Gemma 3 128k | ✅ Available |
+| Gemma 3 128k | ⚠️ Check needed |
 
 ## SOTA Model Tracking
 No new SOTA models detected this week.
