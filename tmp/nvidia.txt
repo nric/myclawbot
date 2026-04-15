@@ -1,0 +1,26 @@
+Tue Apr 14 23:11:21 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5090        Off |   00000000:01:00.0  On |                  N/A |
+|  0%   50C    P8             51W /  575W |    1853MiB /  32607MiB |     31%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            4902      G   /usr/lib/xorg/Xorg                       69MiB |
+|    0   N/A  N/A            6768      G   /usr/bin/kwin_wayland                    96MiB |
+|    0   N/A  N/A            6828      G   /usr/bin/Xwayland                        10MiB |
+|    0   N/A  N/A            6883    C+G   /usr/bin/plasmashell                   1041MiB |
+|    0   N/A  N/A            7265    C+G   /usr/bin/xwaylandvideobridge             12MiB |
+|    0   N/A  N/A            7798      G   ...share/antigravity/antigravity        154MiB |
+|    0   N/A  N/A           11457    C+G   /usr/bin/krunner                         76MiB |
++-----------------------------------------------------------------------------------------+

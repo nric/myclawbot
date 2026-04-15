@@ -1,0 +1,24 @@
+● ollama.service - Ollama Service
+     Loaded: loaded (/etc/systemd/system/ollama.service; enabled; preset: enabled)
+    Drop-In: /etc/systemd/system/ollama.service.d
+             └─override.conf
+     Active: active (running) since Tue 2026-04-14 22:19:13 WEST; 52min ago
+ Invocation: 8892f8ea6cd84409ac7b745fd6c8a398
+   Main PID: 31033 (ollama)
+      Tasks: 97 (limit: 115080)
+     Memory: 11.9G (max: 48G, available: 21.5G, peak: 48G)
+        CPU: 2min 45.558s
+     CGroup: /system.slice/ollama.service
+             ├─31033 /usr/local/bin/ollama serve
+             └─54287 /usr/local/bin/ollama runner --ollama-engine --model /mnt/data/ollama_models/blobs/sha256-bbcf7fc45500f1df01390a0010da23d032c2a4b3e9b8b829cb8038b1bc36bc0d --port 35467
+
+abr 14 23:11:57 enric-battlestation ollama[31033]: time=2026-04-14T23:11:57.782+01:00 level=INFO source=device.go:272 msg="total memory" size="28.7 GiB"
+abr 14 23:11:57 enric-battlestation ollama[31033]: time=2026-04-14T23:11:57.782+01:00 level=INFO source=sched.go:561 msg="loaded runners" count=1
+abr 14 23:11:57 enric-battlestation ollama[31033]: time=2026-04-14T23:11:57.782+01:00 level=INFO source=server.go:1364 msg="waiting for llama runner to start responding"
+abr 14 23:11:57 enric-battlestation ollama[31033]: time=2026-04-14T23:11:57.782+01:00 level=INFO source=server.go:1398 msg="waiting for server to become available" status="llm server loading model"
+abr 14 23:11:58 enric-battlestation ollama[31033]: [GIN] 2026/04/14 - 23:11:58 | 200 |        22.4µs |       127.0.0.1 | HEAD     "/"
+abr 14 23:11:58 enric-battlestation ollama[31033]: [GIN] 2026/04/14 - 23:11:58 | 200 |        31.5µs |       127.0.0.1 | GET      "/api/ps"
+abr 14 23:12:06 enric-battlestation ollama[31033]: time=2026-04-14T23:12:06.301+01:00 level=INFO source=server.go:1402 msg="llama runner started in 9.41 seconds"
+abr 14 23:12:06 enric-battlestation ollama[31033]: [GIN] 2026/04/14 - 23:12:06 | 200 | 10.369908637s |       127.0.0.1 | POST     "/api/generate"
+abr 14 23:12:09 enric-battlestation ollama[31033]: [GIN] 2026/04/14 - 23:12:09 | 200 |       16.66µs |       127.0.0.1 | HEAD     "/"
+abr 14 23:12:09 enric-battlestation ollama[31033]: [GIN] 2026/04/14 - 23:12:09 | 200 |       23.48µs |       127.0.0.1 | GET      "/api/ps"
